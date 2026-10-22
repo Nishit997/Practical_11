@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Header and Navbar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="bg-purple-600 text-white p-4">
+
+        <div class="flex justify-between items-center">
+
+            <!-- Logo -->
+            <h1 class="text-2xl font-bold">MyStore</h1>
+
+            <!-- Navigation -->
+            <nav class="flex gap-6">
+
+                <a href="#" class="hover:text-orange-300">Home</a>
+
+                <a href="#" class="hover:text-orange-300">About</a>
+
+                <!-- Dropdown -->
+                <div class="relative group">
+
+                    <button class="hover:text-orange-300">
+                        Products 
+                    </button>
+
+                    <div class="hidden group-hover:block absolute bg-gray-100 text-gray-900 p-2 w-32">
+
+                        <a href="#" class="block p-2 hover:bg-gray-300">
+                            Laptop
+                        </a>
+
+                        <a href="#" class="block p-2 hover:bg-gray-300">
+                            Mobile
+                        </a>
+
+                        <a href="#" class="block p-2
